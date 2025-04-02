@@ -1,0 +1,32 @@
+h1 {
+ font-size: 25px;
+ text-align: center;
+ border-bottom: 5px solid green;
+ margin: 0px;
+ padding: 20px;   
+}
+ol {
+border-right: 5px solid red;
+width: 100px;
+margin: 0px;
+padding: 20px;    
+}
+a{
+    text-decoration: none;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+@media (max-width:800px) {
+    #grid{
+        display: block;
+    }
+    ol{
+        border-right: none;
+}
+h1{
+    border-bottom: none;
+}
+}
